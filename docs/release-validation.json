@@ -1,0 +1,25 @@
+{
+  "Errors": [],
+  "System": "HP OmniBook X Flip 14-kc0xxx; AMD Ryzen AI 7 445; Windows 11 Pro 26300.9711",
+  "GalleryOpenUnloadBlocked": true,
+  "ReadOnlyStatus": true,
+  "Scope": "Apply/Restore round trip on an already-tuned profile, preserving its values. LOCAL SERVICE helper Create on an already-existing key. Real OCR host terminated by packaged Unload. Gallery off-state Disable/Restore preserved the exact full-file hash. Fresh-system key creation/removal and other builds were not live-tested. Final service-presence and atomic baseline-write changes were parsed/fixture-tested in both shells, not re-applied on the live profile.",
+  "IntegrationChecks": {
+    "ReapplyPreservedBaseline": true,
+    "AlreadyTunedRoundTrip": true,
+    "ActualUnloadStoppedHosts": true,
+    "NoHostsAfter": true,
+    "TestBaselineRemoved": true,
+    "HelperTaskRemoved": true,
+    "WindowsRegistryAclUnchanged": true,
+    "LocalServiceHelperCreateExisting": true,
+    "ServicesPreserved": true
+  },
+  "WhatIfNoWrites": true,
+  "Date": "2026-10-18",
+  "FixtureSuite": {
+    "PowerShell7": "31 assertions passed",
+    "WindowsPowerShell51": "31 assertions passed"
+  },
+  "GalleryByteExactRoundTrip": true
+}

@@ -1,0 +1,13 @@
+# Never commit real machine state, provider credentials, or diagnostic captures.
+state*.json
+*-original.json
+last-operation.json
+operation.lock
+*.etl
+*.dmp
+*.log
+*.lnk
+*.zip
+private/
+artifacts/
+test-results/
